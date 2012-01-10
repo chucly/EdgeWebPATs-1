@@ -17,6 +17,7 @@ class A01Login < Test::Unit::TestCase
    @@specified_browser = Common.get_browser_name
 
 #[CHUC]the initial method of class
+# The second comment
  def setup
 
    if $site == nil
