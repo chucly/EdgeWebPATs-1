@@ -16,6 +16,7 @@ include LogAssertions
 class A01Login < Test::Unit::TestCase
    @@specified_browser = Common.get_browser_name
 
+#[CHUC]the initial method of class
  def setup
 
    if $site == nil
